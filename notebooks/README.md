@@ -1,0 +1,114 @@
+# Retail Sales Analysis
+
+## Project Overview
+
+This project explores retail sales data from 2014 to 2017 using Python. The main objective is to analyze sales performance, evaluate profitability, identify business trends, and provide data-driven recommendations.
+
+## Dataset
+
+- **Dataset:** Sample Superstore
+- **Records:** 9,994
+- **Columns:** 21
+- **Time Period:** 2014–2017
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/taramokhtari/retail-sales-analysis.git
+cd retail-sales-analysis
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activate the Environment
+
+On Linux/macOS:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+### 4. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Add the Dataset
+
+Place the `Sample - Superstore.csv` file inside the `data/` directory.
+
+**Note:** The dataset is not included in this repository.
+
+### 6. Run the Notebook
+
+Open `notebooks/01_sales_data_exploration.ipynb` in Jupyter Notebook or VS Code and run the cells.
+
+## Analysis
+
+- Data inspection and preprocessing
+- Exploratory Data Analysis (EDA)
+- Sales and profit analysis
+- Discount and profitability analysis
+- Category and sub-category performance
+- Customer and segment analysis
+- Regional performance analysis
+- Monthly and yearly sales trends
+- Shipping analysis
+- Product performance analysis
+- Data visualization
+
+## Key Findings
+
+- Total sales increased from approximately **$484K in 2014** to **$733K in 2017**.
+- The **West region** generated the highest total sales and profit.
+- **Tables** recorded the largest cumulative loss among sub-categories.
+- Higher discount levels were generally associated with lower profitability.
+- The **Home Office** segment had the highest profit margin.
+
+## Business Recommendations
+
+- Review discount strategies to reduce losses associated with high discounts.
+- Investigate consistently loss-making products and sub-categories.
+- Improve profitability in the Central region.
+- Develop customer-segment-specific sales strategies.
+- Evaluate product performance using both sales and profit metrics.
+
+## Project Structure
+
+```text
+retail-sales-project/
+│
+├── data/
+│   └── Sample - Superstore.csv
+│
+├── notebooks/
+│   └── 01_sales_data_exploration.ipynb
+│
+├── .gitignore
+└── README.md
+```
+
+## Project Status
+
+Completed — Exploratory Data Analysis and business insights.
